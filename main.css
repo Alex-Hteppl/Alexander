@@ -1,0 +1,133 @@
+body {
+	background: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0, 0.5)), url(../site/style/Фон.jpg);
+	font-family: sans-serif;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+img {
+	display: block;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 200px;
+	margin-top: 600px;
+	margin: 70px auto 0px;
+}
+
+h3 {
+	color: white;
+	display: block;
+	text-decoration-color: #fffff;
+	text-align: center;
+}
+
+
+button {
+	font-family: inherit;
+ 	margin: auto;
+ 	display: block;
+	margin-top: 15px;
+	font-size: 16px;
+	width: 455px;
+	height: 40px;
+    transition-duration: 0.4s;
+	cursor: pointer;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: #F000FF;
+}
+.button1:hover {
+    background-color: #F000FF;
+    color: white;
+}
+}
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: #008BFF;
+}
+.button2:hover {
+    background-color: #008BFF;
+    color: white;
+}
+}
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: #00FF6C;
+}
+.button3:hover {
+    background-color: #00FF6C;
+    color: white;
+}
+}
+.button4 {
+    background-color: white; 
+    color: black; 
+    border: #FF1300;
+}
+.button4:hover {
+    background-color: #FF1300;
+    color: white;
+}
+}
+.button5 {
+    background-color: white; 
+    color: black; 
+    border: #555555;
+}
+.button5:hover {
+    background-color: #555555;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+   }
+
+h6 {
+	text-align: center;
+	color: white;
+	display: block;
+	text-decoration-color: #fffff;
+	margin-top: 40px;
+	font-size: 12px;
+}
+
+h4 {
+	color: white;
+	display: block;
+	text-decoration-color: #fffff;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	display: block;
+	text-decoration-color: #fffff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 36px;
+}
+
+p {
+	color:  white;
+	font-size: 20px;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+
+table {
+	margin:  auto;
+	width: 80%;
+}
+
+tr {
+	color:  white;
+	width: 80%;
+}
