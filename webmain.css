@@ -53,6 +53,18 @@ h5 {
 	background: #424949;
 	border-radius: 30px;
 }
+h3 {
+    margin-top: 50px;
+    color: white;
+    font-size: 26px;
+    font-family: sans-serif;
+    width: 450px;
+    padding: 15px;
+    margin-left: 500px;
+    height: 60px;
+    background: #424949;
+    border-radius: 30px;
+}
 h2 {
 	color: white;
 	font-size: 30px;
@@ -217,4 +229,45 @@ body {
 .center {
 	display: block;	
 	margin-left: 480px;
+}
+
+
+
+
+
+.contact {
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    margin: 0 auto;
+}
+
+.contact img {
+    display: block;
+    margin: 30px;
+    width: 200px;
+}
+
+.contact img:nth-child(n) {
+    order: 1;
+}
+.contact p:nth-child(n) {
+    position: relative;
+    bottom: 50px;
+    order: 2;
+}
+.contact p:nth-child(3n) {
+    order: 3;
+    position: relative;
+    bottom: 80px;
+}
+.contact p {
+    margin: 0px;
+    width: 260px;
+    height: 0px;
+    font-size: 20px;
+    text-align: center;
+    background: no-repeat;
 }
