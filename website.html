@@ -20,7 +20,6 @@
   			<h2>Tabbed Image Gallery</h2>
   			<h1>Click on the images below:</h1>
 		</div>
-
 <div class="row">
   	<div class="column">
     	<img src="style/Dasha.png" alt="Don't be shy!" style="width:100%" onclick="myFunction(this);">
@@ -74,22 +73,20 @@
     	<img src="style/doroga.jpg" alt="Light your fire!" style="width:100%" onclick="myFunction(this);">
   	</div>
 </div>
-
-<div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">×</span>
-  <img id="expandedImg" style="width:35%" class="center">
-  <div id="imgtext"></div>
-</div>
-
-<script>
-function myFunction(imgs) {
-    var expandImg = document.getElementById("expandedImg");
-    var imgText = document.getElementById("imgtext");
-    expandImg.src = imgs.src;
-    imgText.innerHTML = imgs.alt;
-    expandImg.parentElement.style.display = "block";
-}
-</script>
-		</div>
+	<div class="container">
+  		<span onclick="this.parentElement.style.display='none'" class="closebtn">×</span>
+  		<img id="expandedImg" style="width:35%" class="center">
+  		<div id="imgtext"></div>
+	</div>
+	<script>
+		function myFunction(imgs) {
+    	var expandImg = document.getElementById("expandedImg");
+    	var imgText = document.getElementById("imgtext");
+    	expandImg.src = imgs.src;
+    	imgText.innerHTML = imgs.alt;
+    	expandImg.parentElement.style.display = "block";
+		}
+	</script>
 	</body>
+</head>
 </html>
