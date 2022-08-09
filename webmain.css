@@ -125,47 +125,47 @@ body {
     padding: 10px;
 }
 .column8 {
-    float: left;
+    float: right;
     width: 152px;
     padding: 10px;
 }
 .column9 {
-    float: left;
+    float: right;
     width: 150px;
     padding: 10px;
 }
 .column10 {
-    float: left;
+    float: right;
     width: 150px;
     padding: 10px;
 }
 .column11 {
-    float: left;
+    float: right;
     width: 160px;
     padding: 10px;
 }
 .column12 {
-    float: left;
+    float: right;
     width: 150px;
     padding: 10px;
 }
 .column13 {
-    float: left;
+    float: right;
     width: 150px;
     padding: 10px;
 }
 .column14 {
-    float: left;
+    float: right;
     width: 150px;
     padding: 10px;
 }
 .column15 {
-    float: left;
+    float: right;
     width: 213px;
     padding: 10px;
 }
 .column16 {
-    float: left;
+    float: right;
     width: 297px;
     padding: 10px;
 }
@@ -210,6 +210,7 @@ body {
     font-size: 35px;
     cursor: pointer;
     opacity: 0.8;
+    clear: both;
 }
 
 .center {
