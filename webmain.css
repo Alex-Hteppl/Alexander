@@ -31,14 +31,14 @@ body {
 
 p {
 	color: white;
-	font-size: 35px;
-	font-family: sans-serif;
+	font-size: 60px;
+	font-family: serif;
 	padding: 35px;
-	text-align: left;
-	width: 800px;
-	margin-top: 100px;
-	margin-left: 350px;
-	height: 230px;
+	text-align: center;
+	width: 700px;
+	margin-top: 50px;
+	margin-left: 400px;
+	height: 130px;
 	background: #424949;
 	border-radius: 30px;
 }
@@ -66,11 +66,13 @@ h3 {
     border-radius: 30px;
 }
 h2 {
+    display: inline-block;
 	color: white;
 	font-size: 30px;
 	font-family: sans-serif;;
 }
 h1 {
+    display: block;
 	color: white;
 	font-size: 20px;
 	font-family: sans-serif;
@@ -137,48 +139,48 @@ body {
     padding: 10px;
 }
 .column8 {
-    float: right;
+    float: left;
     width: 152px;
     padding: 10px;
 }
 .column9 {
-    float: right;
-    width: 150px;
+    float: left;
+    width: 161px;
     padding: 10px;
 }
 .column10 {
-    float: right;
-    width: 150px;
+    float: left;
+    width: 161px;
     padding: 10px;
 }
 .column11 {
-    float: right;
-    width: 160px;
+    float: left;
+    width: 171px;
     padding: 10px;
 }
 .column12 {
-    float: right;
-    width: 150px;
+    float: left;
+    width: 163px;
     padding: 10px;
 }
 .column13 {
-    float: right;
-    width: 150px;
+    float: left;
+    width: 163px;
     padding: 10px;
 }
 .column14 {
-    float: right;
-    width: 150px;
+    float: left;
+    width: 163px;
     padding: 10px;
 }
 .column15 {
-    float: right;
-    width: 213px;
+    float: left;
+    width: 226px;
     padding: 10px;
 }
 .column16 {
-    float: right;
-    width: 297px;
+    float: left;
+    width: 309px;
     padding: 10px;
 }
 
@@ -237,7 +239,7 @@ body {
 
 .contact {
     position: relative;
-    top: 100px;
+    top: 0px;
     display: flex;
     flex-wrap: wrap;
     width: 850px;
@@ -247,7 +249,7 @@ body {
 .contact img {
     display: block;
     margin: 30px;
-    width: 200px;
+    width: 215px;
 }
 
 .contact img:nth-child(n) {
@@ -255,19 +257,36 @@ body {
 }
 .contact p:nth-child(n) {
     position: relative;
-    bottom: 50px;
+    bottom: 60px;
     order: 2;
 }
 .contact p:nth-child(3n) {
     order: 3;
     position: relative;
-    bottom: 80px;
+    bottom: 100px;
 }
 .contact p {
     margin: 0px;
-    width: 260px;
+    width: 275px;
     height: 0px;
     font-size: 20px;
     text-align: center;
     background: no-repeat;
+}
+
+
+
+.infa p {
+    position: absolute;
+    margin: 20px 575px;
+    width: 750px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: left;
+    line-height: 25px;
+    background: no-repeat;
+}
+
+.infa img {
+    margin: 0px 200px;
 }
