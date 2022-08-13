@@ -66,6 +66,8 @@ h3 {
     border-radius: 30px;
 }
 h2 {
+    position:relative;
+    margin-top: 0px;
     display: inline-block;
 	color: white;
 	font-size: 30px;
@@ -249,7 +251,7 @@ body {
 .contact img {
     display: block;
     margin: 30px;
-    width: 215px;
+    width: 210px;
 }
 
 .contact img:nth-child(n) {
@@ -267,7 +269,7 @@ body {
 }
 .contact p {
     margin: 0px;
-    width: 275px;
+    width: 273px;
     height: 0px;
     font-size: 20px;
     text-align: center;
@@ -278,15 +280,53 @@ body {
 
 .infa p {
     position: absolute;
-    margin: 20px 575px;
+    margin: 5px 600px;
     width: 750px;
-    font-family: sans-serif;
-    font-size: 20px;
+    font-family: initial;
+    font-size: 22px;
     text-align: left;
-    line-height: 25px;
-    background: no-repeat;
+    line-height: 30px;
+    background: fixed;
+    background-color: #424949;
+    height: 335px;
 }
 
 .infa img {
     margin: 0px 200px;
 }
+
+
+
+.container2 {
+    display: block;
+    width: 75.6%;
+    margin: 15px 200px; 
+    background-color: rgb(204, 204, 204); 
+    border-radius: 30px;
+}
+
+.alpha p {
+    position: absolute;
+    font-style: oblique;
+    margin: -27px 190px;
+    width: 300px;
+    font-family: initial;
+    font-size: 24px;
+    text-align: left;
+    line-height: 15px;
+    background: none;
+    border-radius: 0px;
+}
+
+.skills {
+    text-align: right; 
+    padding-right: 20px; 
+    line-height: 30px;
+    color: white; 
+    border-radius: 30px;
+}
+
+.c {width: 90%; background-color: #4CAF50;}
+.ps {width: 80%; background-color: #f44336;}
+.html {width: 75%; background-color: #808080;}
+.css {width: 70%; background-color: #2196F3;}
