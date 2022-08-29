@@ -95,89 +95,92 @@ body {
 
 .column {
     float: left;
-    width: 150px;
+    width: 144px;
     padding: 10px;
 }
 
 .column1 {
     float: left;
-    width: 190px;
+    width: 185px;
     padding: 10px;
 }
 
 .column2 {
     float: left;
-    width: 226px;
+    width: 220px;
     padding: 10px;
 }
 
 .column3 {
     float: left;
-    width: 170px;
+    width: 165px;
     padding: 10px;
 }
 
 .column4 {
     float: left;
-    width: 154px;
+    width: 150px;
     padding: 10px;
 }
 
 .column5 {
     float: left;
-    width: 169px;
+    width: 165px;
     padding: 10px;
 }
 
 .column6 {
     float: left;
-    width: 152px;
+    width: 148px;
     padding: 10px;
 }
 
 .column7 {
     float: left;
-    width: 152px;
+    width: 148px;
     padding: 10px;
 }
 .column8 {
     float: left;
-    width: 152px;
+    width: 148px;
     padding: 10px;
 }
+
+/*разрыв фотографий */
+
 .column9 {
     float: left;
-    width: 161px;
+    width: 155px;
     padding: 10px;
 }
 .column10 {
     float: left;
-    width: 161px;
+    width: 155px;
     padding: 10px;
 }
 .column11 {
     float: left;
-    width: 171px;
+    width: 167px;
     padding: 10px;
 }
 .column12 {
     float: left;
-    width: 163px;
+    width: 155px;
     padding: 10px;
 }
 .column13 {
     float: left;
-    width: 163px;
+    width: 155px;
     padding: 10px;
 }
 .column14 {
     float: left;
-    width: 163px;
+    width: 155px;
     padding: 10px;
 }
 .column15 {
     float: left;
-    width: 226px;
+    width: 225px;
     padding: 10px;
 }
 .column16 {
@@ -330,3 +333,65 @@ body {
 .ps {width: 80%; background-color: #f44336;}
 .html {width: 75%; background-color: #808080;}
 .css {width: 70%; background-color: #2196F3;}
+
+.icon-bar {
+    position: fixed;
+    right: 2px; 
+    top: 79%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 9px;
+    transition: all 0.6s ease;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .icon-bar a:hover {
+      background-color: white;
+      color: black;
+  }
+  
+  .telegram {
+    background: rgb(43, 42, 42);
+    color: white;
+  }
+  
+  .google {
+    background: rgb(43, 42, 42);
+    color: white;
+  }
+  
+  .instagram {
+    background: rgb(43, 42, 42);
+    color: white;
+  }
+  
+  .youtube {
+    background: rgb(43, 42, 42);
+    color: white;
+  }
+
+  .spotify {
+    background: rgb(43, 42, 42);
+    color: white;
+  }
+  
+  .git {
+    background: rgb(43, 42, 42);
+    color: white;
+  }
+
+  .content {
+    margin-left: 75px;
+    font-size: 30px;
+  }
