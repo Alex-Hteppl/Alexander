@@ -261,7 +261,6 @@ body {
 }
 
 .icona {
-    float: left;
     position: fixed;
     right: 6.5px; 
     top: 78%;
