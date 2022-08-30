@@ -18,6 +18,7 @@ body {
     }
 }
 
+
 .panel {
     background-color: #1c1b29;
     overflow: hidden;
@@ -27,7 +28,6 @@ body {
     float: right;
     text-align: center;
     padding: 20px 16px;
-    text-decoration: none;
     font-size: 17px;
     transition: 0.5s;
 }
