@@ -1,8 +1,21 @@
 body {
-	background: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0, 0.5)), url(style/background.jpg);
-	font-family: sans-serif;
-	background-size: cover;
-	background-attachment: fixed;
+    background: linear-gradient(
+        to right, #833ab4,
+        #fd1d1d, #F4A460, #FF00FF,#FFDC33,#CED23A, #FF97BB,#FF4500, #fcb045);
+    background-size: 400% 400%;
+    animation: animate-background 60s infinite ease-in-out;
+}
+
+@keyframes animate-background {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }
 
 img {
@@ -19,6 +32,13 @@ h3 {
 	display: block;
 	text-decoration-color: #fff;
 	text-align: center;
+    font-size: 24px;
+    text-shadow: 
+    1px 1px 1px #1c1b29, 
+    0 1px 1px #1c1b29, 
+    -1px 0 1px #1c1b29, 
+    0 -1px 1px #1c1b29;
+    letter-spacing: 1px;
 }
 
 .block5{    
@@ -31,7 +51,7 @@ h3 {
     color: #fff;
     width: 50%;
     height: 50%;
-    background: #555555;
+    background: #1c1b29;
     border-radius: 30px;
     text-decoration: none;
     padding: 1em 17em;
@@ -52,7 +72,7 @@ h3 {
     color: #fff;
     width: 50%;
     height: 50%;
-    background: #555555;
+    background: #1c1b29;
     border-radius: 30px;
     text-decoration: none;
     padding: 1em 16.8em;
@@ -73,7 +93,7 @@ h3 {
     color: #fff;
     width: 50%;
     height: 50%;
-    background: #555555;
+    background: #1c1b29;
     border-radius: 30px;
     text-decoration: none;
     padding: 1em 16.9em;
@@ -95,7 +115,7 @@ h3 {
     color: #fff;
     width: 50%;
     height: 50%;
-    background: #555555;
+    background: #1c1b29;
     border-radius: 30px;
     text-decoration: none;
     padding: 1em 17.4em;
@@ -115,7 +135,7 @@ h3 {
     color: #fff;
     width: 50%;
     height: 50%;
-    background: #555555;
+    background: #1c1b29;
     border-radius: 30px;
     text-decoration: none;
     padding: 1em 17em;
@@ -137,7 +157,7 @@ h3 {
     color: #fff;
     width: 50%;
     height: 50%;
-    background: #555555;
+    background: #1c1b29;
     border-radius: 30px;
     text-decoration: none;
     padding: 1em 17.7em;
@@ -166,6 +186,13 @@ h4 {
 	display: block;
 	text-decoration-color: #fff;
 	text-align: center;
+    font-size: 20px;
+    text-shadow: 
+    2px 2px 2px #1c1b29, 
+    0 1px 1px #1c1b29, 
+    -1px 0 1px #1c1b29, 
+    0 -1px 1px #1c1b29;
+    letter-spacing: 1px;
 }
 
 h1 {
@@ -175,7 +202,13 @@ h1 {
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 40px;
-	font-size: 36px;
+	font-size: 40px;
+    text-shadow: 
+    2px 2px 2px #1c1b29, 
+    0 1px 1px #1c1b29, 
+    -1px 0 1px #1c1b29, 
+    0 -1px 1px #1c1b29;
+    letter-spacing: 1px;
 }
 
 p {
