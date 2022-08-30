@@ -1,32 +1,109 @@
 body {
-	background: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0, 0.5)), url(style/background.jpg);
-	font-family: sans-serif;
-	background-size: cover;
-	background-attachment: fixed;
+    background: linear-gradient(
+        to right, #833ab4,
+        #fd1d1d, #F4A460, #FF00FF,#FFDC33,#CED23A, #FF97BB,#FF4500, #fcb045);
+    background-size: 400% 400%;
+    animation: animate-background 60s infinite ease-in-out;
+}
+
+@keyframes animate-background {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }
 
 .panel {
-    background-color: #333;
+    background-color: #1c1b29;
     overflow: hidden;
 }
 
 .panel a {
     float: right;
-    color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: 0.5s;
 }
 
-.panel a.Mine:hover {
-    background-color: #fff;
-    color: black;
+.butto {
+    margin-right: 2px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1fe8b6;
+    border: 0px solid;
+    position: relative;
 }
 
-.panel a.active {
-    background-color: #4CAF50;
-    color: white;
+.butto::before,
+.butto::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: inherit;
+    transition: all .5s;
+}
+
+.butto::before {
+    top: 0px;
+    left: 0px;
+    border-width: 3px 0 0 3px;
+}
+
+.butto::after {
+    bottom: 0px;
+    right: 0px;
+    border-width: 0 3px 3px 0;
+}
+
+.butto:hover::before,
+.butto:hover::after {
+    width: calc(97%);
+    height: calc(96%);
+}
+
+.butt {
+    margin-right: 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e8801f;
+    border: 0px solid;
+    position: relative;
+}
+
+.butt::before,
+.butt::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: inherit;
+    transition: all .5s;
+}
+
+.butt::before {
+    top: 0px;
+    left: 0px;
+    border-width: 5px 0 0 5px;
+}
+
+.butt::after {
+    bottom: 0px;
+    right: 0px;
+    border-width: 0 5px 5px 0;
+}
+
+.butt:hover::before,
+.butt:hover::after {
+    width: calc(93%);
+    height: calc(96%);
 }
 
 p {
@@ -35,10 +112,10 @@ p {
 	font-family: serif;
 	padding: 35px;
 	text-align: center;
-	width: 700px;
-	margin-top: 50px;
-	margin-left: 400px;
-	height: 130px;
+	width: 0px;
+	margin-top: 80px;
+	margin-left: 500px;
+	height: 120px;
 	background: #424949;
 	border-radius: 30px;
 }
@@ -190,7 +267,7 @@ body {
 }
 
 .row img {
-    opacity: 0.5; 
+    opacity: 0.9; 
     cursor: pointer; 
 }
 
@@ -348,6 +425,7 @@ body {
     font-family: initial;
     font-size: 22px;
     text-align: left;
+    border: 3px solid black;
     line-height: 30px;
     background: fixed;
     background-color: #424949;
@@ -378,7 +456,6 @@ body {
     text-align: left;
     line-height: 15px;
     background: none;
-    border-radius: 0px;
 }
 
 .skills {
@@ -387,6 +464,7 @@ body {
     line-height: 30px;
     color: white; 
     border-radius: 30px;
+    border: 2px solid black;
 }
 
 .c {width: 90%; background-color: #4CAF50;}
@@ -394,3 +472,144 @@ body {
 .html {width: 75%; background-color: #808080;}
 .css {width: 70%; background-color: #2196F3;}
 .python {width: 40%; background-color: #ce1dff;}
+
+.portfolio {
+    height: 150px;
+    width: 600px;
+    position: absolute;
+	margin-top: -50px;
+	left: 450px;
+    box-shadow: 0 35px 35px rgba(0,0, 0,0.3);
+    border-radius: 30px;
+    overflow: hidden;
+    background: #1c1b29;
+}
+
+.portfolio::before {
+    content: "";
+    background-image: conic-gradient(
+            orangered 60deg,
+            transparent 100deg
+        );
+        height: 500%;
+        width: 150%;
+        position: absolute;
+        left: -25%;
+        top: -200%;
+        animation: rotate 2s infinite linear;
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.portfolio::after {
+    content: "PORTFOLIO";
+    height: 94%;
+    width: 94%;
+    position: absolute;
+    background-color: #1c1b29;
+    border-radius: 30px;
+    top: 3%;
+    left: 3%;
+    color: orangered;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+.informations {
+    height: 150px;
+    width: 600px;
+    position: absolute;
+	margin-top: -50px;
+	left: 450px;
+    box-shadow: 0 35px 35px rgba(0,0, 0,0.3);
+    border-radius: 30px;
+    overflow: hidden;
+    background: #1c1b29;
+}
+
+.informations::before {
+    content: "";
+    background-image: conic-gradient(
+            orangered 60deg,
+            transparent 100deg
+        );
+        height: 500%;
+        width: 150%;
+        position: absolute;
+        left: -25%;
+        top: -200%;
+        animation: rotate 2s infinite linear;
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.informations::after {
+    content: "INFORMATION";
+    height: 94%;
+    width: 94%;
+    position: absolute;
+    background-color: #1c1b29;
+    border-radius: 30px;
+    top: 3%;
+    left: 3%;
+    color: orangered;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+.support {
+    height: 150px;
+    width: 600px;
+    position: absolute;
+	margin-top: -50px;
+	left: 450px;
+    box-shadow: 0 35px 35px rgba(0,0, 0,0.3);
+    border-radius: 30px;
+    overflow: hidden;
+    background: #1c1b29;
+}
+
+.support::before {
+    content: "";
+    background-image: conic-gradient(
+            orangered 60deg,
+            transparent 100deg
+        );
+        height: 500%;
+        width: 150%;
+        position: absolute;
+        left: -25%;
+        top: -200%;
+        animation: rotate 2s infinite linear;
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.support::after {
+    content: "CONTACTS SUPPORT";
+    height: 94%;
+    width: 94%;
+    position: absolute;
+    background-color: #1c1b29;
+    border-radius: 30px;
+    top: 3%;
+    left: 3%;
+    color: orangered;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
