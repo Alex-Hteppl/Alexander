@@ -32,6 +32,30 @@ body {
     transition: 0.5s;
 }
 
+.panel c {
+    color: blue;
+    float: left;
+    text-align: center;
+    padding: 15px 3px 15px 690px;
+    font-size: 24px;
+}
+
+/* .panel g {
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 15px 1px;
+    font-size: 24px;
+} */
+
+.panel d {
+    color: yellow;
+    float: left;
+    text-align: center;
+    padding: 15px 3px;
+    font-size: 24px;
+}
+
 .butto {
     margin-right: 2px;
     text-decoration: none;
